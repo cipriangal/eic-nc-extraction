@@ -143,14 +143,14 @@ void setOutTree(string fnm){
   tout->Branch("electron_px",&electron_px,"electron_px/D");
   tout->Branch("electron_py",&electron_py,"electron_py/D");
   tout->Branch("electron_pz",&electron_pz,"electron_pz/D");
-  tout->Branch("SUM_U",&sum_u,"sum_u/D");
-  tout->Branch("SUM_D",&sum_d,"sum_d/D");
-  tout->Branch("SUM_S",&sum_s,"sum_s/D");
-  tout->Branch("SUM_C",&sum_c,"sum_c/D");
-  tout->Branch("SUM_U_T",&sum_u_t,"sum_u_t/D");
-  tout->Branch("SUM_D_T",&sum_d_t,"sum_d_t/D");
-  tout->Branch("SUM_S_T",&sum_s_t,"sum_s_t/D");
-  tout->Branch("SUM_C_T",&sum_c_t,"sum_c_t/D");			
+  tout->Branch("SUM_U",&sum_u,"SUM_U/D");
+  tout->Branch("SUM_D",&sum_d,"SUM_D/D");
+  tout->Branch("SUM_S",&sum_s,"SUM_S/D");
+  tout->Branch("SUM_C",&sum_c,"SUM_C/D");
+  tout->Branch("SUM_U_T",&sum_u_t,"SUM_U_T/D");
+  tout->Branch("SUM_D_T",&sum_d_t,"SUM_D_T/D");
+  tout->Branch("SUM_S_T",&sum_s_t,"SUM_S_T/D");
+  tout->Branch("SUM_C_T",&sum_c_t,"SUM_C_T/D");			
 }
 
 void initVars(){
